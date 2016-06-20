@@ -1,79 +1,49 @@
 {
-  "currentPage": {
-    "displayTemplate": "sportDetailPageLive",
-    "displayName": "France - Australie",
-    "URLVitrine": "https://raw.githubusercontent.com/florentv/rugbyapp/master/front/WSRugbyVitrineLive.json",
-    "BOName": "Live - France - Australie",
-    "BOLayoutName": "Live - France - Australie",
-    "autorefresh": 30000,
-    "startTime": 1426190520,
-    "endTime": 1451593020
-  },
-  "tracking": {
-    "omniture": {
-      "s.channel": "MyCMob",
-      "s.prop4": "MyCMob - Live - Page Intermediaire",
-      "s.prop5": "MyCMob - Live - Page Intermediaire - Live - Course",
-      "s.pagename": "MyCMob - Live - Page Intermediaire - Live - Course"
-    }
-  },
-  "detail": {
-    "informations": {
-      "type": "live",
-      "event": "rugby",
-      "urlImage": "http://rugby-service...",
-      "noLiveTitle": "Pas de diffusion live pour ce match",
-      "startTimeLive": 1466431309,
-      "endTimeLive": 1471701709,
-      "multicam": [
-        {
-          "displayName": "Match",
-          "picto": "match",
-          "URLMedias": "http://preprod-f1-service.canalplus.com/getMediaUrl/d41326194a3c7d1d4273e9a4356d0b46/970.json?params[type]=live&cache=1800000"
-        },
-        {
-          "displayName": "Plan large",
-          "picto": "large",
-          "URLMedias": "http://preprod-f1-service.canalplus.com/getMediaUrl/d41326194a3c7d1d4273e9a4356d0b46/970.json?params[type]=live&cache=1800000"
-        },
-        {
-          "displayName": "Arbitre",
-          "picto": "arbitre",
-          "URLMedias": "http://preprod-f1-service.canalplus.com/getMediaUrl/d41326194a3c7d1d4273e9a4356d0b46/970.json?params[type]=live&cache=1800000"
-        }
-      ],
-      "countdownTitle": "Votre match en direct dans : ",
-      "video": {
-        "type": "pfv",
-        "buttonTitle": "Voir le résumé du match",
-        "duration": "109000",
-        "availableInVoDOnDevice": true,
-        "availableInD2GOnDevice": true,
-        "isInOfferForD2G": true,
-        "availableInVoDOnG5": true,
-        "availableInVoDOnFree": true,
-        "availableInLiveOnDevice": false,
-        "isInOffer": true,
-        "isInOfferOnDevice": true,
-        "URLImage": "http://media.canal-plus.com/wwwplus/image/1/19/10/nip-nip-58874-640x360-mldnc.10139.jpg",
-        "title": "Grand Prix d'Autriche",
-        "subtitle": "L'intégrale",
-        "HD": true,
-        "summary": "Retrouvez les résumés de tous les Grand Prix de la saison de Formule 1",
-        "summaryMedium": "Retrouvez les résumés de tous les Grand Prix de la saison de Formule 1",
-        "contentID": "1280291",
-        "idVideoPub": "1280291",
-        "videoPathPub": "SPORT/FORMULE_1/GP_AUTRICHE",
-        "URLMedias": "http://hls-live-m6-l3.canal-plus.com/live/hls/itele-clair-hd-andr7/and-hd-clair/index.m3u8",
-        "noPub": false,
-        "VoD": {
-          "videoURL": "http://us-cplus-aka.canal-plus.com/i/geo3/1506/21/nip_NIP_58874_,200k,400k,800k,1500k,.mp4.csmil/master.m3u8",
-          "encryption": "clear"
-        },
-        "publicationDate": "Dimanche 21 juin à 21h25",
-        "sharingURL": "http://www.canalplus.fr/c-sport/c-formule-1/pid5576-videos.html?vid=1280291",
-        "fbkWatchTag": "video.other"
-      }
-    }
-  }
+"currentPage": {
+"displayTemplate": "sportDetailPageLive",
+"displayName": "Grenoble / Bordeaux-Bègles",
+"URLVitrine": "http://preprod-rugby-service.canalplus.com/highlight/9fa0d4b52642983b20a02e9ad8223078/0.json?params[pid]=4497&id=2016_203_M_316235&params[type]=boSport&cache=120000",
+"BOName": "GENERIQUE - Live 1.1",
+"BOLayoutName": "GENERIQUE Live 1.1",
+"path": "/ne-pas-toucher-rugby/pid4499-generique-live-1.1.html",
+"autorefresh": 30000
+},
+"tracking": {
+"omniture": {
+"channel": "RugbyTab",
+"prop4": "RugbyTab - Live",
+"prop5": "RugbyTab - Live - Match",
+"pageName": "RugbyTab - Live - Match",
+"eVar12": "GENERIQUE Live 1.1"
+}
+},
+"detail": {
+"informations": {
+"type": "live",
+"event": "rugby",
+"noLiveTitle": "Aucune diffusion live pour ce match",
+"startTimeLive": 1467270120,
+"endTimeLive": 1468497900,
+"multicam": [
+{
+"displayName": "Antenne",
+"picto": "match",
+"URLMedias": "http://preprod-rugby-service.canalplus.com/getMediaUrl/9fa0d4b52642983b20a02e9ad8223078/301.json?params[type]=live&cache=1800000"
+}
+],
+"countdownTitle": "Diffusion en direct dans : ",
+"video": {
+"type": "pfv",
+"buttonTitle": "Voir le résumé du match",
+"availableInVoDOnDevice": true,
+"availableInD2GOnDevice": true,
+"isInOfferForD2G": true,
+"availableInLiveOnDevice": true,
+"isInOffer": true,
+"isInOfferOnDevice": true,
+"HD": false
+},
+"consumptionPlatform": "Sport"
+}
+}
 }

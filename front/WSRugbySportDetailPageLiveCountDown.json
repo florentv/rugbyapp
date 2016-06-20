@@ -2,7 +2,7 @@
 "currentPage": {
 "displayTemplate": "sportDetailPageLive",
 "displayName": "Grenoble / Bordeaux-Bègles",
-"URLVitrine": "http://preprod-rugby-service.canalplus.com/highlight/9fa0d4b52642983b20a02e9ad8223078/0.json?params[pid]=4497&id=2016_203_M_316235&params[type]=boSport&cache=120000",
+"URLVitrine": "http://preprod-rugby-service.canalplus.com/highlight/9fa0d4b52642983b20a02e9ad8223078/4499.json?cache=30000&id=2016_203_M_316034&params%5Btype%5D=boSport&nbContent=96",
 "BOName": "GENERIQUE - Live 1.1",
 "BOLayoutName": "GENERIQUE Live 1.1",
 "path": "/ne-pas-toucher-rugby/pid4499-generique-live-1.1.html",
@@ -28,7 +28,7 @@
 {
 "displayName": "Antenne",
 "picto": "match",
-"URLMedias": "http://preprod-rugby-service.canalplus.com/getMediaUrl/9fa0d4b52642983b20a02e9ad8223078/301.json?params[type]=live&cache=1800000"
+"URLMedias": "http://preprod-rugby-service.canalplus.com/getMediaUrl/9fa0d4b52642983b20a02e9ad8223078/1401942.json?pfv=hls&cache=1800000"
 }
 ],
 "countdownTitle": "Diffusion en direct dans : ",

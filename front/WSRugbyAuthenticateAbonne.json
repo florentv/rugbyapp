@@ -47,6 +47,16 @@
         "BOName": "Coupe du Monde"
       }
     },
+        {
+      "displayName": "Top 14 - CalendarDefault",
+      "picto": "top14",
+      "onClick": {
+        "URLPage": "https://raw.githubusercontent.com/florentv/rugbyapp/master/front/WSRugbySportCalendarDefault",
+        "displayTemplate": "gabaritList",
+        "displayName": "Top 14",
+        "BOName": "Calendrier 1.1"
+      }
+    },
     {
       "displayName": "Pro D2",
       "picto": "prod2",

@@ -1,57 +1,62 @@
-[
-  {
-    "applicationVersion": {
-      "updateAppId": "838126294",
-      "possibleUpgradeLabel": "Une mise à jour de l'application Rugby App est disponible : souhaitez-vous l'installer maintenant ?",
-      "possibleUpgradeOSFailureLabel": "Une mise à jour de votre application Rugby App est disponible mais le logiciel de votre iPhone n'est pas suffisamment à jour. \nPour en profiter, connectez le à votre ordinateur et mettez le à jour via le logiciel iTunes, ou rendez-vous dans les Réglages (Général/Mise à jour logicielle) de votre iPhone.\nEn cas de besoin, rendez-vous sur l'assistance de myCANAL.",
-      "mandatoryUpgradeLabel": "Une mise à jour de l'application Rugby App est nécessaire, veuillez la mettre à jour pour continuer à profiter du service.",
-      "mandatoryUpgradeOSFailureLabel": "Vous devez mettre à jour le logiciel de votre iPhone pour continuer à utiliser l'application CANAL F1.\nPour ceci, connectez le à votre ordinateur et mettez le à jour via le logiciel iTunes, ou rendez-vous dans les Réglages (Général/Mise à jour logicielle) de votre iPhone.\nEn cas de besoin, rendez-vous sur l'assistance de myCANAL.",
-      "urlHelp": "http://www.assistance.canal-plus.com",
-      "currentVersion": "0.0.0",
-      "currentVersionIOS7": "0.0.0",
-      "minimalOS": "6.0",
-      "minimalVersion": "0.0.0",
-      "minimalVersionIOS7": "0.0.0",
-      "minimalOSIOS7": "7.0"
-    },
-    "authentificationParameters": {
-      "extraInfo": true,
-      "hardware": false,
-      "macros": true,
-      "micros": true,
-      "paired": true,
-      "pdsDevice": false,
-      "pdsHybrids": false,
-      "pdsNormal": false
-    },
-    "settings": {
-      "smartEmergencyShutdown": false,
-      "smartFetch": true
-    },
-    "authent": {
-      "subscriptionMacros": "ALD_CP"
-    },
-    "servicePlanUrls": {
-      "free": "http://webtv-static.canal-plus.com/resources/other/Channels_FREE.json",
-      "g5": "http://webtv-static.canal-plus.com/resources/other/Channels_G5.json",
-      "g5tnt": "http://webtv-static.canal-plus.com/resources/other/Channels_G5TNT.json",
-      "channels_mobile": "https://raw.githubusercontent.com/florentv/rugbyapp/master/front/channels.json",
-      "channels_mobileCOS": "https://raw.githubusercontent.com/florentv/rugbyapp/master/front/channels.json"
-    },
-    "rootURLs": {
-      "searchURL": "http://f1-service.mycanal.fr/page/{cmsToken}/2430.json?params[searchkey]={searchkey}",
-      "programDetail": "http://f1-service.mycanal.fr/page/{cmsToken}/0.json?",
-      "ATGPlay": "https://secure-mycanal-player-ios-ws.canal-plus.com/esb/ctx/json/mycanal/iphone/xtc/rest-sec/play",
-      "liveTVGlobalChannels": "http://webtv-static.canal-plus.com/metadata/All/globalchannels.json",
-      "liveTVGlobalChannelsCOS": "http://webtv-static.canal-plus.com/metadata/All/globalchannels.json",
-      "liveTVChannel": "http://webtv-static.canal-plus.com/metadata/Canal/chid{0}.json",
-      "liveTVChannelCOS": "http://webtv-static.canal-plus.com/metadata/Canal/chid{0}.json",
-      "playerPingSSL": "https://secure-mobiletv.canal-plus.com/JsonPortalProvider/PlayerPing.svc/RestCallMethod",
-      "playerPingCOS": "https://secure-mobiletv.canal-plus.com/JsonPortalProvider/PlayerPing.svc/RestCallMethod",
-      "liveTV": "https://secure-mobiletv.canal-plus.com/JsonPortalProvider/Service.svc/RestCallMethod",
-      "liveTVCOS": "https://secure-mobiletv.canal-plus.com/JsonPortalProvider/Service.svc/RestCallMethod",
-      "liveTVSSL": "https://secure-mobiletv.canal-plus.com/JsonPortalProvider/Service.svc/RestCallMethod"
-    },
-    "compatibilityVersion": "1.0"
-  }
-]
+[{
+	"applicationVersion": {
+		"updateAppId": "694580816",
+		"possibleUpgradeLabel": "Une mise à jour de l'application CANAL Rugby App est disponible : souhaitez-vous l'installer maintenant ?",
+		"possibleUpgradeOSFailureLabel": "Une mise à jour de votre application CANAL Rugby App est disponible mais le logiciel de votre iPhone n'est pas suffisamment à jour. \nPour en profiter, connectez le à votre ordinateur et mettez le à jour via le logiciel iTunes, ou rendez-vous dans les Réglages (Général\/Mise à jour logicielle) de votre iPhone.\nEn cas de besoin, rendez-vous sur l'assistance de myCANAL.",
+		"mandatoryUpgradeLabel": "La CANAL Rugby App touche à sa fin. Nous vous invitons à vous rendre sur l'app myCANAL pour bénéficier de la meilleure expérience autour du Rugby !",
+		"mandatoryUpgradeOSFailureLabel": "Vous devez mettre à jour le logiciel de votre iPhone pour continuer à utiliser l'application CANAL Rugby App.\nPour ceci, connectez le à votre ordinateur et mettez le à jour via le logiciel iTunes, ou rendez-vous dans les Réglages (Général\/Mise à jour logicielle) de votre iPhone.\nEn cas de besoin, rendez-vous sur l'assistance de myCANAL.",
+		"urlHelp": "http:\/\/www.assistance.canal-plus.com",
+		"currentVersion": "3.1.3",
+		"currentVersionIOS7": "3.1.1",
+		"currentVersionIOS8": "3.1.1",
+		"minimalOS": "6.0",
+		"minimalVersion": "4.1.1",
+		"minimalVersionIOS7": "4.0.0",
+		"minimalVersionIOS8": "4.1.1",
+		"minimalOSIOS7": "7.0",
+		"minimalOSIOS8": "8.0"
+	},
+	"authentificationParameters": {
+		"extraInfo": true,
+		"hardware": false,
+		"isActivated": true,
+		"isAuthenticated": true,
+		"macros": true,
+		"micros": true,
+		"paired": true,
+		"pdsDevice": false,
+		"pdsHybrids": false,
+		"pdsNormal": false
+	},
+	"settings": {
+		"smartEmergencyShutdown": false,
+		"smartFetch": true,
+		"remoteDRMCertificate": "http:\/\/webtv-static.canal-plus.com\/bourbon\/cert\/fps-mycanal-1-20161208.der",
+		"addThumborPrefixForImages": false
+	},
+	"authent": {
+		"subscriptionMacros": "ALD_CP"
+	},
+	"servicePlanUrls": {
+		"free": "http:\/\/webtv-static.canal-plus.com\/resources\/other\/Channels_FREE.json",
+		"g5": "http:\/\/webtv-static.canal-plus.com\/resources\/other\/Channels_G5.json",
+		"g5tnt": "http:\/\/webtv-static.canal-plus.com\/resources\/other\/Channels_G5TNT.json",
+		"channels_mobile": "http:\/\/webtv-static.canal-plus.com\/resources\/4_12\/Channels.json"
+	},
+	"rootURLs": {
+		"searchURL": "http:\/\/f1-service.mycanal.fr\/page\/{cmsToken}\/2430.json?params[searchkey]={searchkey}",
+		"programDetail": "http:\/\/f1-service.mycanal.fr\/page\/{cmsToken}\/0.json?",
+		"URLProfils": "http:\/\/rugby-service.mycanal.fr\/profils.json",
+		"URLAuthenticate": "http:\/\/rugby-service.mycanal.fr\/authenticate.json\/{device}\/{authenticateVersion}?",
+		"ATGPlay": "https:\/\/secure-mycanal-player-ios-ws.canal-plus.com\/esb\/ctx\/json\/mycanal\/ios\/xtc\/rest-sec\/play",
+		"liveTVGlobalChannels": "http:\/\/webtv-static.canal-plus.com\/metadata\/All\/globalchannels.json",
+		"liveTVChannel": "http:\/\/webtv-static.canal-plus.com\/metadata\/Canal\/chid{0}.json",
+		"playerPingSSL": "https:\/\/secure-mobiletv.canal-plus.com\/JsonPortalProvider\/PlayerPing.svc\/RestCallMethod",
+		"URLConfiguration": "http:\/\/rugby-service.mycanal.fr\/configuration.json\/{device}?highResolution={retinaMode}",
+		"URLPerso": "http:\/\/rugby-service.mycanal.fr\/perso.json\/{cmsToken}\/{eureka}",
+		"liveTV": "https:\/\/secure-mobiletv.canal-plus.com\/JsonPortalProvider\/Service.svc\/RestCallMethod",
+		"liveTVSSL": "https:\/\/secure-mobiletv.canal-plus.com\/JsonPortalProvider\/Service.svc\/RestCallMethod",
+		"URLThumbor": "http:\/\/thumb.canalplus.pro\/http\/unsafe\/{resolutionXY}"
+	},
+	"compatibilityVersion": "1.0"
+}]

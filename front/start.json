@@ -5,7 +5,7 @@
 		"mandatoryUpgradeLabel": "La CANAL Rugby App touche à sa fin. Nous vous invitons à vous rendre sur l'app myCANAL pour bénéficier de la meilleure expérience autour du Rugby !",
 		"mandatoryUpgradeOSFailureLabel": "Vous devez mettre à jour le logiciel de votre iPhone pour continuer à utiliser l'application CANAL Rugby App.\nPour ceci, connectez le à votre ordinateur et mettez le à jour via le logiciel iTunes, ou rendez-vous dans les Réglages (Général\/Mise à jour logicielle) de votre iPhone.\nEn cas de besoin, rendez-vous sur l'assistance de myCANAL.",
 		"urlHelp": "http:\/\/www.assistance.canal-plus.com",
-		"googlePlayUrl": "market:\/\/details?id=com.netcosports.andcanalrugby",
+		"googlePlayUrl": "market:\/\/details?id=com.canal.android.canal",
 		"amazonAppShopUrl": "amzn:\/\/apps\/android?p=com.netcosports.andcanalrugby",
 		"samsungAppsUrl": "samsungapps:\/\/ProductDetail\/com.netcosports.andcanalrugby",
 		"currentVersion": "1900410",

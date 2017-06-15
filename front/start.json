@@ -1,62 +1,60 @@
-[{
-	"applicationVersion": {
-		"updateAppId": "694580816",
-		"possibleUpgradeLabel": "Une mise à jour de l'application CANAL Rugby App est disponible : souhaitez-vous l'installer maintenant ?",
-		"possibleUpgradeOSFailureLabel": "Une mise à jour de votre application CANAL Rugby App est disponible mais le logiciel de votre iPhone n'est pas suffisamment à jour. \nPour en profiter, connectez le à votre ordinateur et mettez le à jour via le logiciel iTunes, ou rendez-vous dans les Réglages (Général\/Mise à jour logicielle) de votre iPhone.\nEn cas de besoin, rendez-vous sur l'assistance de myCANAL.",
-		"mandatoryUpgradeLabel": "La CANAL Rugby App touche à sa fin. Nous vous invitons à vous rendre sur l'app myCANAL pour bénéficier de la meilleure expérience autour du Rugby !",
-		"mandatoryUpgradeOSFailureLabel": "Vous devez mettre à jour le logiciel de votre iPhone pour continuer à utiliser l'application CANAL Rugby App.\nPour ceci, connectez le à votre ordinateur et mettez le à jour via le logiciel iTunes, ou rendez-vous dans les Réglages (Général\/Mise à jour logicielle) de votre iPhone.\nEn cas de besoin, rendez-vous sur l'assistance de myCANAL.",
-		"urlHelp": "http:\/\/www.assistance.canal-plus.com",
-		"currentVersion": "3.1.3",
-		"currentVersionIOS7": "3.1.1",
-		"currentVersionIOS8": "3.1.1",
-		"minimalOS": "6.0",
-		"minimalVersion": "4.1.1",
-		"minimalVersionIOS7": "4.0.0",
-		"minimalVersionIOS8": "4.1.1",
-		"minimalOSIOS7": "7.0",
-		"minimalOSIOS8": "8.0"
-	},
-	"authentificationParameters": {
-		"extraInfo": true,
-		"hardware": false,
-		"isActivated": true,
-		"isAuthenticated": true,
-		"macros": true,
-		"micros": true,
-		"paired": true,
-		"pdsDevice": false,
-		"pdsHybrids": false,
-		"pdsNormal": false
-	},
-	"settings": {
-		"smartEmergencyShutdown": false,
-		"smartFetch": true,
-		"remoteDRMCertificate": "http:\/\/webtv-static.canal-plus.com\/bourbon\/cert\/fps-mycanal-1-20161208.der",
-		"addThumborPrefixForImages": false
-	},
-	"authent": {
-		"subscriptionMacros": "ALD_CP"
-	},
-	"servicePlanUrls": {
-		"free": "http:\/\/webtv-static.canal-plus.com\/resources\/other\/Channels_FREE.json",
-		"g5": "http:\/\/webtv-static.canal-plus.com\/resources\/other\/Channels_G5.json",
-		"g5tnt": "http:\/\/webtv-static.canal-plus.com\/resources\/other\/Channels_G5TNT.json",
-		"channels_mobile": "http:\/\/webtv-static.canal-plus.com\/resources\/4_12\/Channels.json"
-	},
-	"rootURLs": {
-		"searchURL": "http:\/\/f1-service.mycanal.fr\/page\/{cmsToken}\/2430.json?params[searchkey]={searchkey}",
-		"programDetail": "http:\/\/f1-service.mycanal.fr\/page\/{cmsToken}\/0.json?",
-		"URLProfils": "http:\/\/rugby-service.mycanal.fr\/profils.json",
-		"URLAuthenticate": "http:\/\/rugby-service.mycanal.fr\/authenticate.json\/{device}\/{authenticateVersion}?",
-		"ATGPlay": "https:\/\/secure-mycanal-player-ios-ws.canal-plus.com\/esb\/ctx\/json\/mycanal\/ios\/xtc\/rest-sec\/play",
-		"liveTVGlobalChannels": "http:\/\/webtv-static.canal-plus.com\/metadata\/All\/globalchannels.json",
-		"liveTVChannel": "http:\/\/webtv-static.canal-plus.com\/metadata\/Canal\/chid{0}.json",
-		"playerPingSSL": "https:\/\/secure-mobiletv.canal-plus.com\/JsonPortalProvider\/PlayerPing.svc\/RestCallMethod",
-		"URLConfiguration": "http:\/\/rugby-service.mycanal.fr\/configuration.json\/{device}?highResolution={retinaMode}",
-		"URLPerso": "http:\/\/rugby-service.mycanal.fr\/perso.json\/{cmsToken}\/{eureka}",
-		"liveTV": "https:\/\/secure-mobiletv.canal-plus.com\/JsonPortalProvider\/Service.svc\/RestCallMethod",
-		"liveTVSSL": "https:\/\/secure-mobiletv.canal-plus.com\/JsonPortalProvider\/Service.svc\/RestCallMethod",
-		"URLThumbor": "http:\/\/thumb.canalplus.pro\/http\/unsafe\/{resolutionXY}"
-	},
-	"compatibilityVersion": "1.0"
-}]
+[
+{
+"applicationVersion": {
+"updateAppId": "694580816",
+"possibleUpgradeLabel": "Une mise à jour de l'application myCANAL est disponible : souhaitez-vous l'installer maintenant ? iOS 9 est recommandé pour une expérience optimale sur myCANAL",
+"possibleUpgradeOSFailureLabel": "Une mise à jour de votre application myCANAL est disponible mais le logiciel de votre %d n'est pas suffisamment à jour. \nPour en profiter, connectez le à votre ordinateur et mettez le à jour via le logiciel iTunes, ou rendez-vous dans les Réglages (Général/Mise à jour logicielle) de votre %d.\nEn cas de besoin, rendez-vous sur l'assistance de myCANAL.",
+"mandatoryUpgradeLabel": "Une mise à jour de l'application myCANAL est nécessaire, veuillez la mettre à jour pour continuer à profiter du service.",
+"mandatoryUpgradeOSFailureLabel": "Vous devez mettre à jour le logiciel de votre %d pour continuer à utiliser l'application myCANAL.\nPour ceci, connectez le à votre ordinateur et mettez le à jour via le logiciel iTunes, ou rendez-vous dans les Réglages (Général/Mise à jour logicielle) de votre %d.\nEn cas de besoin, rendez-vous sur l'assistance de myCANAL.",
+"urlHelp": "http://communaute-espaceclient.canal-plus.com/",
+"currentVersionIOS9": "4.0.0",
+"minimalVersionIOS9": "4.0.0",
+"minimalOSIOS9": "9.0"
+},
+"authentificationParameters": {
+"abTestingPopulation": false,
+"geozone": true,
+"isActivated": true,
+"isActivatedSMS": false,
+"isAuthenticated": true,
+"macros": true,
+"micros": true,
+"paired": true,
+"pdsHybrids": false,
+"pdsNormal": true
+},
+"settings": {
+"smartEmergencyShutdown": false,
+"persoEmergencyShutdown": false,
+"addThumborPrefixForImages": true
+},
+"servicePlanUrls": {
+"free": "https://secure-webtv-static.canal-plus.com/resources/other/Channels_FREE.json",
+"g5": "https://secure-webtv-static.canal-plus.com/resources/other/Channels_G5.json",
+"g5tnt": "https://secure-webtv-static.canal-plus.com/resources/other/Channels_G5TNT.json"
+},
+"rootURLs": {
+"URLHAPI": "https://secure-mycanal-player-ios-ws3.canal-plus.com",
+"searchURL": "https://service.mycanal.fr/page/{cmsToken}/2430.json?params[searchkey]={searchkey}&cache=300000",
+"URLABTestingPopulation": "https://hodor.canalplus.pro/api/v1/abtestingpopulation.json?cache=172800000&tokenPass={passToken}",
+"URLProfils": "https://hodor.canalplus.pro/api/v1/profils.json",
+"URLAuthenticate": "https://hodor.canalplus.pro/api/v1/authenticate.json/{device}/{authenticateVersion}?",
+"ATGPlay": "https://secure-mycanal-player-ios-ws.canal-plus.com/esb/ctx/json/mycanal/ios/xtc/rest-sec/play",
+"URLSearchHAPI": "https://hodor.canalplus.pro/api/v1/search/{cmsToken}/query/{searchkey}",
+"URLPlaybackStatus": "https://hodor.canalplus.pro/api/v1/me/{cmsToken}/playBackStatuses.json",
+"liveTVGlobalChannels": "https://secure-webtv-static.canal-plus.com/metadata/All/globalchannels.json",
+"liveTVChannel": "https://secure-webtv-static.canal-plus.com/metadata/Canal/chid{0}.json",
+"liveTVChannelCMS": "https://hodor.canalplus.pro/api/v1/channelmetadata/{cmsToken}/{EpgId}.json?pastDuration=28800&futureDuration=28800",
+"playerPingSSL": "https://secure-mobiletv.canal-plus.com/JsonPortalProvider/PlayerPing.svc/RestCallMethod",
+"URLConfiguration": "https://hodor.canalplus.pro/api/v1/configuration.json/{device}",
+"URLPerso": "https://hodor.canalplus.pro/api/v1/perso.json/{cmsToken}/{eureka}",
+"URLProgramDetailLiveTV": "https://hodor.canalplus.pro/api/v1/detail/{cmsToken}/livetv/{idDiffusion}.json?cache=21600000&&liveTVPageID=2872",
+"URLWSFromPath": "https://hodor.canalplus.pro/api/v1/wsfrompath.json/{cmsToken}?path={path}",
+"URLBus2i": "https://api-client.canal-plus.com",
+"URLThumbor": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}",
+"VHOSTWebsite": "https://www.mycanal.fr",
+"URLLiveTV": "https://secure-mobiletv.canal-plus.com/WebPortal"
+},
+"compatibilityVersion": "1.0"
+}
+]
